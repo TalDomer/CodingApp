@@ -1,0 +1,79 @@
+.lobby {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+}
+
+.header {
+  font-size: 2.5rem;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.subheader {
+  font-size: 1.5rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.code-blocks-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.code-block-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.code-block-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.code-block-title {
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.code-block-code-name {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.code-block-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.code-block-link:hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #007bff;
+}
+
+.error {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #dc3545;
+}

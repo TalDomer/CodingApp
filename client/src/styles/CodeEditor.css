@@ -1,0 +1,90 @@
+.code-editor-container {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-start; 
+    position: relative; 
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    margin-bottom: 10px; 
+  }
+  
+  .theme-button, .font-size-button {
+    background-color: #007bff; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 8px 12px; 
+    margin-right: 10px; 
+    cursor: pointer; 
+    font-size: 14px; 
+  }
+  
+  .font-size-button {
+    margin-right: 5px; 
+  }
+  
+  .theme-button:hover, .font-size-button:hover {
+    background-color: #0056b3; 
+  }
+  
+  .editor-section {
+    width: 100%; 
+  }
+  
+  .submit-button {
+    margin-top: 10px; 
+    background-color: #28a745; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 8px 12px; 
+    cursor: pointer; 
+  }
+  
+  .submit-button:hover {
+    background-color: #218838; 
+  }
+  
+  .code-name {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .editor-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .font-size-label {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .font-size-input {
+    margin-left: 10px;
+    width: 60px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .sidebar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-item {
+    margin-bottom: 10px;
+  }
